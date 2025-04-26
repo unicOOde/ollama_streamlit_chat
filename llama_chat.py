@@ -13,7 +13,7 @@ def get_ai_response(messages):
         return None
 
 def main():
-    st.title("Simple Chat")
+    st.title("Chat with local LLM")
 
     # Initialize chat history
     if "messages" not in st.session_state:
