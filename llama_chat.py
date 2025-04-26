@@ -13,7 +13,7 @@ def get_ai_response(messages):
         return None
 
 def main():
-    st.title("Digital Factory Campus: Let's chat with Llama 3.1 (by Nicolai Gruber)!")
+    st.title("Simple Chat")
 
     # Initialize chat history
     if "messages" not in st.session_state:
